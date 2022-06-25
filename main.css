@@ -1477,12 +1477,15 @@ footer .footer-secondary-links {
         padding: 28.81vh 5rem 20vh 5rem;
 
         background: url(assets/img/morflax_studio__5__1.png) right -20.438rem bottom -30.313rem no-repeat, 
-                    url(assets/img/desktop-bg.svg) center no-repeat;
+                    url(assets/img/desktop-bg.svg) center no-repeat,
+                    #00DB16;
 
         background-size:    104.625rem 83.25rem, 
-                            cover;
+                            cover,
+                            100%;
 
         background-blend-mode:  multiply, 
+                                normal,
                                 normal;
     }
 
