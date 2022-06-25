@@ -219,12 +219,15 @@ header {
     padding: 9.25rem 1.5rem 4.306rem;
 
     background: url(assets/img/morflax_studio__5__1.png) right -12rem bottom -11.343rem no-repeat, 
-                url(assets/img/mobile-bg.svg) center no-repeat;
+                url(assets/img/mobile-bg.svg) center no-repeat,
+                #00DB16;
 
     background-size:    34.125rem 27.125rem, 
-                        cover;
+                        cover,
+                        100%;
 
-    background-blend-mode:  multiply, 
+    background-blend-mode:  multiply,
+                            color, 
                             normal;
 }
 
@@ -1121,12 +1124,15 @@ footer .footer-secondary-links {
         padding: 15.313rem 2.5rem 11.313rem 2.5rem;
 
         background: url(assets/img/morflax_studio__5__1.png) right -18.938rem bottom -19.75rem no-repeat, 
-                    url(assets/img/tablet-bg.svg) center no-repeat;
+                    url(assets/img/tablet-bg.svg) center no-repeat,
+                    #00DB16;
 
         background-size:    59rem 46.938rem, 
-                            cover;
+                            cover,
+                            100%;
 
-        background-blend-mode:  multiply, 
+        background-blend-mode:  multiply,
+                                color,
                                 normal;
     }
 
@@ -1485,7 +1491,7 @@ footer .footer-secondary-links {
                             100%;
 
         background-blend-mode:  multiply, 
-                                normal,
+                                color,
                                 normal;
     }
 
