@@ -1481,18 +1481,6 @@ footer .footer-secondary-links {
     /* Header */
     header {
         padding: 28.81vh 5rem 20vh 5rem;
-
-        background: url(assets/img/morflax_studio__5__1.png) right -20.438rem bottom -30.313rem no-repeat, 
-                    url(assets/img/desktop-bg.svg) center no-repeat,
-                    #00DB16;
-
-        background-size:    104.625rem 83.25rem, 
-                            cover,
-                            100%;
-
-        background-blend-mode:  multiply, 
-                                color,
-                                normal;
     }
 
     header article {
@@ -1760,6 +1748,22 @@ footer .footer-secondary-links {
         line-height: 122%;
     }
 
+}
+
+@media only screen and (min-width: 1200px) {
+    header {
+        background: url(assets/img/morflax_studio__5__1.png) right -20.438rem bottom -30.313rem no-repeat, 
+                    url(assets/img/desktop-bg.svg) center no-repeat,
+                    #00DB16;
+
+        background-size:    104.625rem 83.25rem, 
+                            cover,
+                            100%;
+
+        background-blend-mode:  multiply, 
+                                color,
+                                normal;
+    }
 }
 
 @media only screen and (min-width: 1600px) {
