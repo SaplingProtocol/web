@@ -217,66 +217,18 @@ header {
     flex-direction: column;
     align-items: flex-start;
     padding: 9.25rem 1.5rem 4.306rem;
-}
 
-header>.background {
-    margin: -9.25rem -1.5rem -4.306rem;
-    background-color: #00DB16;
-}
+    background: url(assets/img/morflax_studio__5__1.png) right -12rem bottom -11.343rem no-repeat, 
+                url(assets/img/mobile-bg.svg) center no-repeat,
+                #00DB16;
 
-header>.background .sapling_logo {
-    background-image: url(assets/img/morflax_studio__5__1.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 34.125rem;
-    height: 27.125rem;
-    right: -12rem;
-    bottom: -11.343rem;
-    mix-blend-mode: multiply;
-    position: absolute;
-    z-index: -6;
-}
+    background-size:    34.125rem 27.125rem, 
+                        cover,
+                        100%;
 
-header>.background .gradient4 {
-    width: 100%;
-    right: 0;
-    top: 0;
-    position: absolute;
-    z-index: -2;
-
-    mix-blend-mode: color;
-}
-
-header>.background .gradient3 {
-    width: 100%;
-    left: 0;
-    bottom: -0.5rem;
-    position: absolute;
-    z-index: -3;
-
-    mix-blend-mode: color;
-}
-
-header>.background .gradient2 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -4;
-
-    mix-blend-mode: color;
-}
-
-header>.background .gradient2>svg {
-    height: 100%;
-}
-
-header>.background .gradient5 {
-    width: 100%;
-    top: 6rem;
-    bottom: 3rem;
-    position: absolute;
-    z-index: -5;
-    mix-blend-mode: color;
+    background-blend-mode:  multiply,
+                            color, 
+                            normal;
 }
 
 header article {
@@ -1170,28 +1122,18 @@ footer .footer-secondary-links {
     /* Header */
     header {
         padding: 15.313rem 2.5rem 11.313rem 2.5rem;
-    }
 
-    header>.background {
-        margin: -15.313rem -2.5rem -11.313rem -2.5rem;
-    }
+        background: url(assets/img/morflax_studio__5__1.png) right -18.938rem bottom -19.75rem no-repeat, 
+                    url(assets/img/tablet-bg.svg) center no-repeat,
+                    #00DB16;
 
-    header>.background .sapling_logo {
-        background-size: 100%;
-        width: 59rem;
-        height: 46.938rem;
-        right: -18.938rem;
-        bottom: -19.75rem;
-    }
+        background-size:    59rem 46.938rem, 
+                            cover,
+                            100%;
 
-    
-    header>.background .gradient3 {
-        bottom: 0;
-    }
-    
-    header>.background .gradient5 {
-        top: 9.938rem;
-        bottom: 4.921rem;
+        background-blend-mode:  multiply,
+                                color,
+                                normal;
     }
 
     header article>div {
@@ -1539,31 +1481,18 @@ footer .footer-secondary-links {
     /* Header */
     header {
         padding: 28.81vh 5rem 20vh 5rem;
-    }
 
-    header>.background {
-        margin: -28.81vh -5rem -20vh -5rem;
-    }
+        background: url(assets/img/morflax_studio__5__1.png) right -20.438rem bottom -30.313rem no-repeat, 
+                    url(assets/img/desktop-bg.svg) center no-repeat,
+                    #00DB16;
 
-    #section0 .background .item1 {
-        width: 100%;
-    }
+        background-size:    104.625rem 83.25rem, 
+                            cover,
+                            100%;
 
-    header>.background .sapling_logo {
-        background-size: 100%;
-        width: 104.625rem;
-        height: 83.25rem;
-        right: -20.438rem;
-        bottom: -30.313rem;
-    }
-
-    header>.background .gradient4 {
-        width: 61.57%;
-    }
-    
-    header>.background .gradient5 {
-        left: 0;
-        bottom: 0;
+        background-blend-mode:  multiply, 
+                                color,
+                                normal;
     }
 
     header article {
