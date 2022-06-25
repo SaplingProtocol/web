@@ -208,14 +208,6 @@ nav .icon-button {
 
 /* END Navigation */
 
-#header {
-    isolation: isolate;
-    width: 100%;
-    height: 100%;
-    flex: none;
-    align-self: stretch;
-}
-
 /* Header */
 header {
     flex: none;
