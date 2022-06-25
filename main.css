@@ -237,46 +237,16 @@ header>.background .sapling_logo {
     z-index: -6;
 }
 
-header>.background .gradient4 {
-    width: 100%;
-    right: 0;
-    top: 0;
-    position: absolute;
-    z-index: -2;
-
-    mix-blend-mode: color;
-}
-
-header>.background .gradient3 {
-    width: 100%;
-    left: 0;
-    bottom: -0.5rem;
-    position: absolute;
-    z-index: -3;
-
-    mix-blend-mode: color;
-}
-
-header>.background .gradient2 {
-    width: 100%;
-    height: 100%;
+header>.background .gradient {
+    width: inherit;
+    height: inherit;
     position: absolute;
     z-index: -4;
 
     mix-blend-mode: color;
-}
 
-header>.background .gradient2>svg {
-    height: 100%;
-}
-
-header>.background .gradient5 {
-    width: 100%;
-    top: 6rem;
-    bottom: 3rem;
-    position: absolute;
-    z-index: -5;
-    mix-blend-mode: color;
+    background: url(assets/img/mobile-bg.svg) center no-repeat;
+    background-size: cover;
 }
 
 header article {
@@ -1184,14 +1154,16 @@ footer .footer-secondary-links {
         bottom: -19.75rem;
     }
 
+    header>.background .gradient {
+        width: inherit;
+        height: inherit;
+        position: absolute;
+        z-index: -4;
     
-    header>.background .gradient3 {
-        bottom: 0;
-    }
+        mix-blend-mode: color;
     
-    header>.background .gradient5 {
-        top: 9.938rem;
-        bottom: 4.921rem;
+        background: url(assets/img/tablet-bg.svg) center no-repeat;
+        background-size: cover;
     }
 
     header article>div {
@@ -1557,13 +1529,16 @@ footer .footer-secondary-links {
         bottom: -30.313rem;
     }
 
-    header>.background .gradient4 {
-        width: 61.57%;
-    }
+    header>.background .gradient {
+        width: inherit;
+        height: inherit;
+        position: absolute;
+        z-index: -4;
     
-    header>.background .gradient5 {
-        left: 0;
-        bottom: 0;
+        mix-blend-mode: color;
+    
+        background: url(assets/img/desktop-bg.svg) center no-repeat;
+        background-size: cover;
     }
 
     header article {
