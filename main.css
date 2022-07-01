@@ -248,7 +248,7 @@ header {
     padding: 9.25rem 1.5rem 4.306rem;
 
     background: url(assets/img/morflax_studio__5__1.png) right -12rem bottom -11.343rem no-repeat, 
-                url(assets/img/mobile-bg.svg) center no-repeat;
+                url(assets/img/header-mobile-bg.png) center no-repeat;
 
     background-size:    34.125rem 27.125rem, 
                         cover;
@@ -971,7 +971,7 @@ header article>a {
     isolation: isolate;
 
     background: url(assets/img/iMac\ Pro\ Front\ View\ Mockup.png) bottom center no-repeat,
-                url(assets/img/section6-bg.svg) center no-repeat,
+                url(assets/img/footer-mobile-bg.png) center no-repeat,
               #1FB7CD;
 
     background-size:    118%,
@@ -1176,7 +1176,7 @@ footer .footer-secondary-links {
         padding: 15.313rem 2.5rem 11.313rem 2.5rem;
 
         background: url(assets/img/morflax_studio__5__1.png) right -18.938rem bottom -19.75rem no-repeat, 
-                    url(assets/img/tablet-bg.svg) center no-repeat;
+                    url(assets/img/header-tablet-bg.png) center no-repeat;
 
         background-size:    59rem 46.938rem, 
                             cover;
@@ -1794,7 +1794,7 @@ footer .footer-secondary-links {
         padding: 8rem 30.16vw 33.33vw;
 
         background: url(assets/img/iMac\ Pro\ Front\ View\ Mockup.png) bottom -3.844rem center no-repeat,
-                    url(assets/img/section6-bg.svg) center no-repeat,
+                    url(assets/img/footer-tablet-bg.png) center no-repeat,
                 #1FB7CD;
 
         background-size:    50%,
@@ -1824,12 +1824,10 @@ footer .footer-secondary-links {
         line-height: 122%;
     }
 
-}
 
-@media only screen and (min-width: 1200px) {
     header {
         background: url(assets/img/morflax_studio__5__1.png) right -22.5rem bottom -30.313rem no-repeat, 
-                    url(assets/img/desktop-bg.svg) center no-repeat;
+                    url(assets/img/header-desktop-bg.png) center no-repeat;
 
         background-size:    104.625rem 83.25rem, 
                             cover;
@@ -1837,13 +1835,11 @@ footer .footer-secondary-links {
         background-blend-mode:  multiply, 
                                 normal;
     }
-}
 
-@media only screen and (min-width: 1600px) {
     #section6 {
     
         background: url(assets/img/iMac\ Pro\ Front\ View\ Mockup.png) bottom -5.5rem center no-repeat,
-                    url(assets/img/section6-bg.svg) center no-repeat,
+                    url(assets/img/footer-desktop-bg.png) center no-repeat,
                   #1FB7CD;
                   
         background-size:    50%,
