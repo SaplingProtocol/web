@@ -19,6 +19,10 @@ a {
     text-decoration: none;
 }
 
+article p {
+    font-weight: 400;
+}
+
 .full-width {
     box-sizing: border-box;
     width: 100%;
@@ -273,7 +277,6 @@ header article>div p {
     box-sizing: border-box;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 500;
     font-size: 1rem;
     line-height: 144%;
     color: #FAFFFB;
@@ -369,7 +372,6 @@ header article>a {
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 500;
     font-size: 1rem;
     line-height: 144%;
     text-align: center;
@@ -458,7 +460,6 @@ header article>a {
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 500;
     font-size: 1rem;
     line-height: 154%;
 
@@ -581,7 +582,6 @@ header article>a {
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 500;
     font-size: 1rem;
     line-height: 144%;
 
@@ -733,7 +733,6 @@ header article>a {
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 500;
     font-size: 1rem;
     line-height: 144%;
 
@@ -897,7 +896,6 @@ header article>a {
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 500;
     font-size: 1rem;
     line-height: 144%;
     text-align: left;
@@ -982,7 +980,6 @@ header article>a {
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 500;
     font-size: 1rem;
     line-height: 144%;
     text-align: center;
@@ -1058,7 +1055,6 @@ footer a {
     font-family: 'Inter';
     font-style: normal;
     font-size: 1.125rem;
-    font-weight: 500;
     line-height: 122%;
     color: #686868;
     text-decoration: none;
