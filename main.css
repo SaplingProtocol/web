@@ -1554,11 +1554,13 @@ footer .footer-secondary-links {
 
     /* Header */
     header {
-        padding: 28.81vh 5rem 20vh 5rem;
+        min-height: 44.063rem;
+        max-height: 44.063rem;
+        padding: 15.313rem 5rem 8.75rem 5rem;
     }
 
     header article {
-        width: 50.93vw;
+        width: 48.125rem;
     }
 
     header article>div {
