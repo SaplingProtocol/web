@@ -216,7 +216,7 @@ nav .icon-button {
 /* END Navigation */
 
 /* Header */
-header {
+#section0 {
     flex: none;
     align-self: stretch;
 
@@ -225,17 +225,17 @@ header {
     align-items: flex-start;
     padding: 9.25rem 1.5rem 4.306rem;
 
-    background: url(assets/img/morflax_studio__5__1.png) right -12rem bottom -11.343rem no-repeat, 
+    background: url(assets/img/trees1.png) right -12rem bottom -11.343rem no-repeat, 
                 url(assets/img/header-mobile-bg.png) center no-repeat;
 
     background-size:    34.125rem 27.125rem, 
                         cover;
 
-    background-blend-mode:  multiply,
+    background-blend-mode:  normal,
                             normal;
 }
 
-header article {
+#section0 article {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -248,7 +248,7 @@ header article {
     height: 100%;
 }
 
-header article>div {
+#section0 article>div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -259,7 +259,7 @@ header article>div {
     align-self: stretch;
 }
 
-header article>div h1 {
+#section0 article>div h1 {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat';
@@ -273,7 +273,7 @@ header article>div h1 {
     align-self: stretch;
 }
 
-header article>div p {
+#section0 article>div p {
     box-sizing: border-box;
     font-family: 'Inter';
     font-style: normal;
@@ -285,7 +285,7 @@ header article>div p {
     align-self: stretch;
 }
 
-header article>a {
+#section0 article>a {
     flex: none;
 
     background: linear-gradient(153.5deg, rgba(255, 255, 255, 0.68) 0%, rgba(255, 255, 255, 0.22) 63.98%);
@@ -308,11 +308,22 @@ header article>a {
     text-decoration: none;
 }
 
+header .button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+header .button-group a {
+    min-width: 10rem;
+}
+
 /* END Header */
 
 /* Section 0*/
 
-#section0 {
+header {
     flex: none;
     align-self: stretch;
 
@@ -320,22 +331,22 @@ header article>a {
     flex-direction: column;
     align-items: center;
     isolation: isolate;
-    padding: 3.622rem 1.623rem 4.528rem;
+    padding: 9rem 1.623rem 4.528rem;
 
     background: linear-gradient(180deg, #EBFBEC 0%, #F2FFFE 100%);
 
     background-size: 100%;
 }
 
-#section0 .background {
-    margin: -3.622rem -1.623rem -4.528rem;
+header .background {
+    margin: -9rem -1.623rem -4.528rem;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#section0 .background .item1 {
+header .background .item1 {
     position: absolute;
     width: 300%;
     height: 100%;
@@ -344,11 +355,11 @@ header article>a {
     align-items: center;
 }
 
-#section0 .background .item1>svg {
+header .background .item1>svg {
     transform: matrix(1, -0.07, -0.02, 1, 0, 0);
 }
 
-#section0 article {
+header article {
     flex: none;
 
     display: flex;
@@ -358,12 +369,12 @@ header article>a {
     gap: 3rem;
 }
 
-#section0 article svg {
+header article svg {
     flex: none;
     display: block;
 }
 
-#section0 article h1 {
+header article h1 {
     margin: 0;
 
     font-family: 'Montserrat';
@@ -379,7 +390,7 @@ header article>a {
     align-self: stretch;
 }
 
-#section0 article p {
+header article p {
     box-sizing: border-box;
 
     font-family: 'Inter';
@@ -394,7 +405,7 @@ header article>a {
     align-self: stretch;
 }
 
-#section0 article a {
+header article a {
     flex: none;
 
     background: linear-gradient(95.49deg, #47CC4C -30.58%, #35B5D1 111.3%);
@@ -433,10 +444,10 @@ header article>a {
     gap: 0.5rem;
     isolation: isolate;
 
-    background: url(assets/img/morflax-studio_15_1.png) right 9.99vw bottom no-repeat,
+    background: url(assets/img/trees3.png) right -8rem bottom -8rem no-repeat,
         linear-gradient(180deg, #FFFFFF 0%, #F5EEFA 100%);
 
-    background-size: 29.17vw,
+    background-size: 24rem,
         100%;
 }
 
@@ -554,6 +565,7 @@ header article>a {
 
     display: grid;
     grid-template-columns: auto;
+    grid-auto-rows: 1fr;
     padding: 0;
     grid-gap: 4.83rem;
 }
@@ -573,7 +585,6 @@ header article>a {
     gap: 0.906rem;
 
     background: linear-gradient(150.71deg, #FFFFFF 0%, rgba(255, 255, 255, 0.8) 69.42%);
-    ;
     border: 0.038rem solid #C1FFC4;
     box-shadow: 0 1.509rem 1.207rem -1.207rem rgba(99, 200, 121, 0.36);
     border-radius: 0.906rem;
@@ -607,80 +618,6 @@ header article>a {
 
 #section2 .highlight {
     font-weight: 700;
-}
-
-#section2 .num1 {
-    background-image: url(assets/img/morflax-studio-1.png);
-    background-repeat: no-repeat;
-    background-size: 22rem;
-    width: 100%;
-    height: 100%;
-
-    left: -9.5rem;
-    top: -7rem;
-
-    position: absolute;
-    z-index: -1;
-}
-
-#section2 .num2 {
-    background-image: url(assets/img/morflax-studio-2.png);
-    background-repeat: no-repeat;
-    background-size: 20rem;
-
-    width: 100%;
-    height: 100%;
-
-    right: -8.5rem;
-    top: -10rem;
-
-    position: absolute;
-    z-index: -1;
-}
-
-#section2 .num3 {
-    background-image: url(assets/img/morflax-studio-3.png);
-    background-repeat: no-repeat;
-    background-size: 20rem;
-
-    width: 100%;
-    height: 100%;
-
-    left: -6.5rem;
-    top: -8rem;
-
-    position: absolute;
-    z-index: -1;
-}
-
-#section2 .num4 {
-    background-image: url(assets/img/morflax-studio-4.png);
-    background-repeat: no-repeat;
-    background-size: 20rem;
-
-    width: 100%;
-    height: 100%;
-
-    right: -8rem;
-    top: -6rem;
-
-    position: absolute;
-    z-index: -1;
-}
-
-#section2 .num5 {
-    background-image: url(assets/img/morflax-studio-5.png);
-    background-repeat: no-repeat;
-    background-size: 20rem;
-
-    width: 100%;
-    height: 200%;
-
-    left: -6rem;
-    top: -6.5rem;
-
-    position: absolute;
-    z-index: -1;
 }
 
 /* END Section 2 */
@@ -873,10 +810,10 @@ header article>a {
     gap: 0.302rem;
     isolation: isolate;
 
-    background:     url(assets/img/star2.png) right bottom no-repeat,
+    background:     url(assets/img/trees2.png) right -8rem bottom -3rem no-repeat,
                   #FFFFFF;
 
-    background-size:    10rem,
+    background-size:    20rem,
                         100%;
 }
 
@@ -1025,6 +962,8 @@ header article>a {
 
     color: #FAFFFB;
     text-decoration: none;
+
+    min-width: 9rem;
 }
 
 /* END Section 6 */
@@ -1147,32 +1086,32 @@ footer .footer-secondary-links {
     /* END Navigation */
 
     /* Header */
-    header {
+    #section0 {
         padding: 15.313rem 2.5rem 11.313rem 2.5rem;
 
-        background: url(assets/img/morflax_studio__5__1.png) right -18.938rem bottom -19.75rem no-repeat, 
+        background: url(assets/img/trees1.png) right -18.938rem bottom -19.75rem no-repeat, 
                     url(assets/img/header-tablet-bg.png) center no-repeat;
 
         background-size:    59rem 46.938rem, 
                             cover;
 
-        background-blend-mode:  multiply,
+        background-blend-mode:  normal,
                                 normal;
     }
 
-    header article>div {
+    #section0 article>div {
         gap: 2rem;
     }
 
-    header article>div h1 {
+    #section0 article>div h1 {
         font-size: 2.5rem;
     }
 
-    header article>div p {
+    #section0 article>div p {
         font-size: 1.5rem;
     }
 
-    header article>a {
+    #section0 article>a {
         box-shadow: 0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.08);
         border-radius: 0.5rem;
 
@@ -1186,33 +1125,33 @@ footer .footer-secondary-links {
 
     /* Section 0*/
 
-    #section0 {
-        padding: 6rem 2.688rem 7.5rem;
+    header {
+        padding: 12rem 2.688rem 7.5rem;
     }
 
-    #section0 .background {
-        margin: -6rem -2.688rem -7.5rem;
+    header .background {
+        margin: -12rem -2.688rem -7.5rem;
         display: flex;
         justify-content: center;
     }
 
-    #section0 .background .item1 {
+    header .background .item1 {
         margin-top: 3rem;
     }
 
-    #section0 .background .item1>svg {
+    header .background .item1>svg {
         transform: matrix(1, -0.06, -0.03, 1, 0, 0);
     }
 
-    #section0 article h1 {
+    header article h1 {
         font-size: 3rem;
     }
 
-    #section0 article p {
+    header article p {
         font-size: 1.5rem;
     }
 
-    #section0 article a {
+    header article a {
         box-shadow: 0 1rem 1.5rem -0.5rem rgba(62, 192, 150, 0.3);
         border-radius: 0.5rem;
         
@@ -1222,12 +1161,22 @@ footer .footer-secondary-links {
         line-height: 1.813rem;
     }
 
+    header .button-group a {
+        min-width: 14.375rem;
+    }
+
     /* END Section 0 */
 
     /* Section 1 */
 
     #section1 {
         padding: 5rem 2.5rem 12.5rem;
+
+        background: url(assets/img/trees3.png) right bottom -8rem no-repeat,
+            linear-gradient(180deg, #FFFFFF 0%, #F5EEFA 100%);
+
+        background-size:    30rem, 
+                            100%;
     }
 
     #section1 article {
@@ -1287,36 +1236,6 @@ footer .footer-secondary-links {
 
     #section2 .tile p {
         font-size: 1.5rem;
-    }
-
-    #section2 .num1 {
-        background-size: 25rem;
-        left: -9.5rem;
-        top: -10.5rem;
-    }
-
-    #section2 .num2 {
-        background-size: 25rem;
-        right: -20rem;
-        top: -10rem;
-    }
-
-    #section2 .num3 {
-        background-size: 25rem;
-        left: -8rem;
-        top: -10rem;
-    }
-
-    #section2 .num4 {
-        background-size: 25rem;
-        right: -18rem;
-        top: -8rem;
-    }
-
-    #section2 .num5 {
-        background-size: 25rem;
-        left: -8rem;
-        top: -8.5rem;
     }
 
     /* END Section 2 */
@@ -1383,10 +1302,10 @@ footer .footer-secondary-links {
         padding: 8.125rem 2.5rem;
         gap: 0.5rem;
 
-        background:     url(assets/img/star2.png) right bottom no-repeat,
+        background:     url(assets/img/trees2.png) right bottom -3rem no-repeat,
                     #FFFFFF;
 
-        background-size:    16rem,
+        background-size:    20rem,
                             100%;
     }
 
@@ -1415,7 +1334,7 @@ footer .footer-secondary-links {
 
     /* Section 6 */
     #section6 {
-        padding: 8rem 2.5rem 35.5rem;
+        padding: 8rem 2.5rem 40rem;
         gap: 0.5rem;
     }
 
@@ -1439,6 +1358,8 @@ footer .footer-secondary-links {
         
         box-shadow: 0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.08);
         border-radius: 0.5rem;
+
+        min-width: 14rem;
     }
 
     /* END Section 6 */
@@ -1525,25 +1446,24 @@ footer .footer-secondary-links {
     /* END Navigation */
 
     /* Header */
-    header {
-        min-height: 44.063rem;
-        max-height: 44.063rem;
-        padding: 15.313rem 5rem 8.75rem 5rem;
+    #section0 {
+        padding: 10.313rem 5rem 9rem 5rem;
     }
 
-    header article {
+    #section0 article {
         width: 48.125rem;
+        gap: 5.25rem;
     }
 
-    header article>div {
-        gap: 1.5rem;
+    #section0 article>div {
+        gap: 4.5rem;
     }
 
-    header article>div p {
+    #section0 article>div p {
         font-size: 1.125rem;
     }
 
-    header article>a {
+    #section0 article>a {
         padding: 1.281rem 5.281rem;
 
         font-size: 1rem;
@@ -1554,31 +1474,50 @@ footer .footer-secondary-links {
 
     /* Section 0*/
 
-    #section0 {
-        padding: 6rem 0 7.5rem;
+    header .button-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    header .button-group a {
+        min-width: 10rem;
     }
 
-    #section0 .background {
-        margin: -6rem 0 -7.5rem;
+    header {
+        min-height: 44.063rem;
+        max-height: 44.063rem;
+        padding: 13.625rem 0 7.5rem;
     }
 
-    #section0 .background .item1 {
+    header .background {
+        margin: -13.625rem 0 -7.5rem;
+    }
+
+    header .background .item1 {
         width: 100%;
     }
 
-    #section0 .background .item1>svg {
+    header .background .item1>svg {
         transform: matrix(1, -0.02, -0.08, 1, 0, 0);
     }
 
-    #section0 article {
-        width: 39.68vw;
+    header article {
+        /* width: 39.68vw; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    #section0 article p {
+    header article p {
+        width: 48vw;
         font-size: 1.125rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    #section0 article a {
+    header article a {
         padding: 1.281rem 2.688rem;
         font-size: 1rem;
         line-height: 1.188rem;
@@ -1591,16 +1530,15 @@ footer .footer-secondary-links {
     #section1 {
         padding: 12.5rem 8rem;
 
-        background: url(assets/img/morflax-studio_15_1.png) right 9.99vw center no-repeat,
-            linear-gradient(180deg, #FFFFFF 0%, #F5EEFA 100%);
+        background: url(assets/img/trees3.png) right center no-repeat,
+                    linear-gradient(180deg, #FFFFFF 0%, #F5EEFA 100%);
+
+        background-size:    45rem, 
+                            100%;
     }
 
     #section1 article {
         width: 47.49vw;
-    }
-
-    #section1 article h1 {
-        width: 38.16vw;
     }
 
     #section1 article p {
@@ -1624,56 +1562,16 @@ footer .footer-secondary-links {
 
     #section2 .tile-group {
         grid-template-columns: auto auto;
-        grid-gap: 0 8rem;
+        grid-gap: 3.75rem;
     }
 
-    #tile1,
+    /* #tile1,
     #tile3 {
         margin-top: 8rem;
-    }
+    } */
 
     #section2 .tile p {
         font-size: 1.125rem;
-    }
-
-    #section2 .num1 {
-        width: 28.125rem;
-        height: 28.125rem;
-
-        left: -11.5rem;
-        top: -13rem;
-    }
-
-    #section2 .num2 {
-        width: 28.125rem;
-        height: 28.125rem;
-
-        left: -3rem;
-        top: -14rem;
-    }
-
-    #section2 .num3 {
-        width: 28.125rem;
-        height: 28.125rem;
-
-        left: -4rem;
-        top: -10.2rem;
-    }
-
-    #section2 .num4 {
-        width: 28.125rem;
-        height: 28.125rem;
-
-        right: min(-9rem, -20%);
-        top: max(-10.5rem, -60%);
-    }
-
-    #section2 .num5 {
-        width: 28.125rem;
-        height: 28.125rem;
-
-        right: min(-11rem, -25%);
-        top: min(-6rem, -40%);
     }
 
     /* END Section 2 */
@@ -1738,10 +1636,10 @@ footer .footer-secondary-links {
     #section5 {
         padding: 8.125rem 8rem;
 
-        background: url(assets/img/star2.png) left 3.24vw top 5.16vw no-repeat,
+        background: url(assets/img/trees2.png) left center no-repeat,
                     #FFFFFF;
 
-        background-size:    35.438rem, 36.438rem,
+        background-size:    45.25rem,
                             100%;
     }
 
@@ -1791,6 +1689,7 @@ footer .footer-secondary-links {
         line-height: 1.188rem;
 
         padding: 1.281rem 3.813rem;
+        min-width: 9rem;
     }
 
     /* END Section 6 */
@@ -1805,14 +1704,14 @@ footer .footer-secondary-links {
     }
 
 
-    header {
-        background: url(assets/img/morflax_studio__5__1.png) right -22.5rem bottom -30.313rem no-repeat, 
+    #section0 {
+        background: url(assets/img/trees1.png) right center no-repeat, 
                     url(assets/img/header-desktop-bg.png) center no-repeat;
 
-        background-size:    104.625rem 83.25rem, 
+        background-size:    46rem, 
                             cover;
 
-        background-blend-mode:  multiply, 
+        background-blend-mode:  normal, 
                                 normal;
     }
 
