@@ -604,6 +604,16 @@ header article a {
     flex: none;
 }
 
+#section2 .tile h2 {
+    font-family: 'Inter';
+    font-style: bold;
+    font-size: 1.125rem;
+
+    color: #686868;
+
+    margin: 0;
+}
+
 #section2 .tile p {
     flex: none;
     align-self: stretch;
@@ -614,6 +624,8 @@ header article a {
     line-height: 144%;
 
     color: #686868;
+
+    margin: 0;
 }
 
 #section2 .highlight {
@@ -1234,6 +1246,10 @@ footer .footer-secondary-links {
         }
     }
 
+    #section2 .tile h2 {
+        font-size: 1.75rem;
+    }
+
     #section2 .tile p {
         font-size: 1.5rem;
     }
@@ -1569,6 +1585,10 @@ footer .footer-secondary-links {
     #tile3 {
         margin-top: 8rem;
     } */
+
+    #section2 .tile h2 {
+        font-size: 1.25rem;
+    }
 
     #section2 .tile p {
         font-size: 1.125rem;
