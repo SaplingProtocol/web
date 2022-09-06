@@ -116,7 +116,7 @@ nav {
 }
 
 nav>div {
-    
+
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -125,13 +125,13 @@ nav>div {
 }
 
 nav .nav-logo {
-    
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     isolation: isolate;
-    
+
     gap: 0.458rem;
     padding: 0 0.845rem;
 
@@ -225,10 +225,10 @@ nav .icon-button {
     align-items: flex-start;
     padding: 9.25rem 1.5rem 4.306rem;
 
-    background: url(assets/img/trees1.png) right -12rem bottom -11.343rem no-repeat, 
+    background: url(assets/img/trees1.png) right -12rem bottom -11.343rem no-repeat,
                 url(assets/img/header-mobile-bg.png) center no-repeat;
 
-    background-size:    34.125rem 27.125rem, 
+    background-size:    34.125rem 27.125rem,
                         cover;
 
     background-blend-mode:  normal,
@@ -240,11 +240,11 @@ nav .icon-button {
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
-    
+
     flex: none;
     align-self: stretch;
     justify-content: space-between;
-    
+
     height: 100%;
 }
 
@@ -1101,10 +1101,10 @@ footer .footer-secondary-links {
     #section0 {
         padding: 15.313rem 2.5rem 11.313rem 2.5rem;
 
-        background: url(assets/img/trees1.png) right -18.938rem bottom -19.75rem no-repeat, 
+        background: url(assets/img/trees1.png) right -18.938rem bottom -19.75rem no-repeat,
                     url(assets/img/header-tablet-bg.png) center no-repeat;
 
-        background-size:    59rem 46.938rem, 
+        background-size:    59rem 46.938rem,
                             cover;
 
         background-blend-mode:  normal,
@@ -1166,7 +1166,7 @@ footer .footer-secondary-links {
     header article a {
         box-shadow: 0 1rem 1.5rem -0.5rem rgba(62, 192, 150, 0.3);
         border-radius: 0.5rem;
-        
+
         padding: 1.5rem 2.75rem;
 
         font-size: 1.5rem;
@@ -1187,7 +1187,7 @@ footer .footer-secondary-links {
         background: url(assets/img/trees3.png) right bottom -8rem no-repeat,
             linear-gradient(180deg, #FFFFFF 0%, #F5EEFA 100%);
 
-        background-size:    30rem, 
+        background-size:    30rem,
                             100%;
     }
 
@@ -1371,7 +1371,7 @@ footer .footer-secondary-links {
         line-height: 1.813rem;
 
         padding: 1.5rem 2rem;
-        
+
         box-shadow: 0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.08);
         border-radius: 0.5rem;
 
@@ -1416,7 +1416,7 @@ footer .footer-secondary-links {
 }
 
 @media only screen and (min-width: 1024px) {
-    
+
     .mobile-only {
         display: none;
     }
@@ -1429,7 +1429,7 @@ footer .footer-secondary-links {
         display: inherit;
     }
 
-    .mobile-hidden, 
+    .mobile-hidden,
     .mobile-visible {
         display: flex;
     }
@@ -1496,14 +1496,13 @@ footer .footer-secondary-links {
         align-items: center;
         gap: 2rem;
     }
-    
+
     header .button-group a {
         min-width: 10rem;
     }
 
     header {
         min-height: 44.063rem;
-        max-height: 44.063rem;
         padding: 13.625rem 0 7.5rem;
     }
 
@@ -1549,7 +1548,7 @@ footer .footer-secondary-links {
         background: url(assets/img/trees3.png) right center no-repeat,
                     linear-gradient(180deg, #FFFFFF 0%, #F5EEFA 100%);
 
-        background-size:    45rem, 
+        background-size:    45rem,
                             100%;
     }
 
@@ -1725,22 +1724,22 @@ footer .footer-secondary-links {
 
 
     #section0 {
-        background: url(assets/img/trees1.png) right center no-repeat, 
+        background: url(assets/img/trees1.png) right center no-repeat,
                     url(assets/img/header-desktop-bg.png) center no-repeat;
 
-        background-size:    46rem, 
+        background-size:    46rem,
                             cover;
 
-        background-blend-mode:  normal, 
+        background-blend-mode:  normal,
                                 normal;
     }
 
     #section6 {
-    
+
         background: url(assets/img/iMac\ Pro\ Front\ View\ Mockup.png) bottom -5.5rem center no-repeat,
                     url(assets/img/footer-desktop-bg.png) center no-repeat,
                   #1FB7CD;
-                  
+
         background-size:    50%,
         100% 100%,
         100%;
