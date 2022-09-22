@@ -1,7 +1,6 @@
 /* removed/not-displayed elements*/
 
-#tile4,
-.app-button
+#tile4
 {
     display: none;
 }
