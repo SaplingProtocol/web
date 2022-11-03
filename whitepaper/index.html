@@ -12,14 +12,19 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" href="whitepaper.css?v=1">
+    <link rel="stylesheet" type="text/css" href="whitepaper.css?v=2">
 
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.0.279/pdf.min.js" 
+        integrity="sha512-QJy1NRNGKQoHmgJ7v+45V2uDbf2me+xFoN9XewaSKkGwlqEHyqLVaLtVm93FzxVCKnYEZLFTI4s6v0oD0FbAlw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
 </head>
 
 <body>
-    <iframe class="pdf-viewer" src="Sapling%20Whitepaper%20v0.1.1.pdf">
-        PDF Viewer requires iframe.
-    </iframe>
+    <div>
+        <iframe id="pdf-js-viewer" src="Sapling%20Whitepaper%20v0.1.1.pdf" title="webviewer" frameborder="0" width="100%" height="100%"></iframe>
+    </div>
 </body>
 
 </html>
